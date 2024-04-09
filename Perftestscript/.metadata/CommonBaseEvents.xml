@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./CommonBaseEvents.xsl"?>
+<CommonBaseEvents>
+	<CommonBaseEvent creationTime="2024-04-09T11:35:53.052Z" msg="Requested 1 of HOT_UI_FltgUsr" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>0</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>requestFeaturesFromServer</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.37" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="HOT_UI_FltgUsr"/>
+			<msgCatalogTokens value="1"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2024-04-09T11:35:53.084Z" msg="License status: OK" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>requestFeaturesFromServer</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.37" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2024-04-09T12:15:25.552Z" msg="Requested 1 of HOT_Perf_SAP_FltgUsr" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>2</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>requestFeaturesFromServer</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.37" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="HOT_Perf_SAP_FltgUsr"/>
+			<msgCatalogTokens value="1"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2024-04-09T12:15:25.557Z" msg="License status: OK" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>3</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>requestFeaturesFromServer</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.37" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2024-04-09T12:15:50.320Z" msg="Requested 1 of HOT_Perf_FltgUsr" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>4</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>182</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>requestFeaturesFromServer</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.37" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="HOT_Perf_FltgUsr"/>
+			<msgCatalogTokens value="1"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2024-04-09T12:15:50.325Z" msg="Requested 1 of HOT_Perf_SAP_FltgUsr" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>5</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>182</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>requestFeaturesFromServer</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.37" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="HOT_Perf_SAP_FltgUsr"/>
+			<msgCatalogTokens value="1"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2024-04-09T12:15:50.331Z" msg="License status: OK" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>6</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>182</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.test.common.licensing.key.FlexLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>requestFeaturesFromServer</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.37" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+</CommonBaseEvents>

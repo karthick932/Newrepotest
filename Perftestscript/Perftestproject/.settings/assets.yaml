@@ -1,0 +1,120 @@
+name: Perftestproject
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /Perftestproject/src
+        type: javaClasspath
+  - name: 'Compound Tests'
+    resources: 
+  - name: Datasets
+    resources: 
+  - name: 'JMeter Tests'
+    resources: 
+  - name: Locations
+    resources: 
+  - name: Results
+    resources: 
+      - name: Perftestscript1_1712661006616.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1712661006616
+          tags: 
+          testId: A1EEF661AEC96980FDFFE13862663664
+          testName: Perftestscript1
+        dependencies: 
+          - path: /Perftestproject/Results/Perftestscript1_1712661006616_orch!system.mstats
+            type: statsSessionStore
+          - path: /Perftestproject/Results/Perftestscript1_1712661006616_orch!system.rstats
+            type: statsSessionStore
+          - path: /Perftestproject/Results/Perftestscript1_1712661006616_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /Perftestproject/Results/Perftestscript1_1712661006616_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /Perftestproject/Results/Perftestscript1_1712661007853.executiondlr
+            type: statsSessionAsset
+          - path: /Perftestproject/Tests/Perftestscript1.testsuite
+            type: statsSessionTest
+      - name: Perftestscript1_1712661006616_orch!system.mstats
+      - name: Perftestscript1_1712661006616_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Perftestscript1_1712661006616_perf!localhost.mstats
+      - name: Perftestscript1_1712661006616_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Perftestscript1_1712661007853.executiondlr
+      - name: VUschedules_1712664927397.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1712664927397
+          tags: 
+          testId: A1EEF66AB7741B30F7E1E53465383430
+          testName: VUschedules
+        dependencies: 
+          - path: /Perftestproject/Results/VUschedules_1712664927397_orch!system.mstats
+            type: statsSessionStore
+          - path: /Perftestproject/Results/VUschedules_1712664927397_orch!system.rstats
+            type: statsSessionStore
+          - path: /Perftestproject/Results/VUschedules_1712664927397_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /Perftestproject/Results/VUschedules_1712664927397_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /Perftestproject/Results/VUschedules_1712664951750.executiondlr
+            type: statsSessionAsset
+          - path: /Perftestproject/Schedules/VUschedules.testsuite
+            type: statsSessionTest
+      - name: VUschedules_1712664927397_orch!system.mstats
+      - name: VUschedules_1712664927397_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUschedules_1712664927397_perf!localhost.mstats
+      - name: VUschedules_1712664927397_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUschedules_1712664951750.executiondlr
+  - name: Schedules
+    resources: 
+      - name: VUschedules.testsuite
+        type: com.ibm.rational.test.lt.schedule
+        version: 11.0.0.0
+        properties: 
+          description: 'Stages:
+
+	users=5; duration=Run Until Finished
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): Perftestscript1
+
+'
+          name: VUschedules
+          type: com.ibm.rational.test.common.schedule.Schedule
+          uid: A1EEF66AB7741B30F7E1E53465383430
+        dependencies: 
+          - path: /Perftestproject/Tests/Perftestscript1.testsuite
+            type: scheduleInvokedTest
+  - name: Tests
+    resources: 
+      - name: Perftestscript1.recdata
+      - name: Perftestscript1.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Perftestproject/Tests/Perftestscript1.recdata
+            type: recsessionRecdata
+      - name: Perftestscript1.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.0.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EEF661AEC96980FDFFE13862663664
+        dependencies: 
+          - path: /Perftestproject/Tests/Perftestscript1.recsession
+            type: testRecsession
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: Perftestscript1_Test_A1EEF661AEC96980FDFFE13862663664.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: VUschedules_Schedule_A1EEF66AB7741B30F7E1E53465383430.java
+            type: com.ibm.rational.test.lt.generatedCode
